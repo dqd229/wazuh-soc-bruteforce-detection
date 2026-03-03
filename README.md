@@ -1,0 +1,1 @@
+# wazuh-soc-bruteforce-detection
