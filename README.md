@@ -5,13 +5,14 @@ Simulated SSH brute-force attack and implemented detection & automated containme
 
 🔹 Lab Architecture
 
-     Wazuh Manager (SIEM)
+Wazuh Manager (SIEM)
 
-     Ubuntu Victim (SSH server)
+Ubuntu Victim (SSH server)
 
-     Attacker (Hydra simulation)
+Attacker (Hydra simulation)
 
 🔹 Attack Simulation
+  
   SSH brute-force using Hydra
 
   Multiple failed login attempts generated
