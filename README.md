@@ -1,9 +1,9 @@
-# wazuh-soc-bruteforce-detection
-Project Overview
+#### wazuh-soc-bruteforce-detection
+## Project Overview
 
-Simulated SSH brute-force attack and implemented detection & automated containment using Wazuh SIEM.
+**1 Simulated SSH brute-force attack and implemented detection & automated containment using Wazuh SIEM.**
 
-🔹 Lab Architecture
+🔹 *Lab Architecture*
 
 Wazuh Manager (SIEM)
 
@@ -11,13 +11,13 @@ Ubuntu Victim (SSH server)
 
 Attacker (Hydra simulation)
 
-🔹 Attack Simulation
+🔹 *Attack Simulation*
   
   SSH brute-force using Hydra
 
   Multiple failed login attempts generated
 
-🔹 Detection
+🔹 *Detection*
 
   Wazuh rule ID 5716 triggered
 
@@ -25,7 +25,7 @@ Attacker (Hydra simulation)
 
 Real-time alert monitoring in dashboard
 
-🔹 Automated Response
+🔹 *Automated Response*
 
 Implemented Wazuh Active Response
 
@@ -33,7 +33,7 @@ Automatically blocked attacker IP using firewall-drop
 
 Verified containment effectiveness
 
-🔹 Hardening & Mitigation
+🔹 *Hardening & Mitigation*
 
 Disabled root SSH login
 
@@ -43,7 +43,7 @@ Configured Fail2Ban
 
 Restricted SSH via firewall
 
-🔹 Skills Demonstrated
+🔹 *Skills Demonstrated*
 
 SIEM monitoring
 
@@ -56,3 +56,4 @@ Incident containment
 Linux hardening
 
 Network security fundamentals
+
